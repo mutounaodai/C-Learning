@@ -1,3 +1,15 @@
 main函数可以不需要写返回值，默认返回0
 cout<<"Hello World"<<endl; = cout.print("Hello World").print(endl);
 编译器会把每一个源文件生成一个obj文件，链接器会将他们合并成一个exe文件
+
+//示例代码
+#if 1//#if 0
+
+#define INTEGER int
+
+INTEGER Multiply(int a, int b)
+{
+	INTEGER result = a * b;
+	return result;
+#include"EndBrace.h" //头文件，里面只有一个}，相当于把头文件里的内容直接复制粘贴在这里，这样就不会少了中括号了
+#endif
