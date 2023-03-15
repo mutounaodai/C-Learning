@@ -1,0 +1,5 @@
+int 占用4个字节，32比特，一位表示符号，表示范围大概-20亿到20亿。
+unsigned int 无符号数，范围大概0到40亿
+char 一个字节，short 两个字节，int 四个字节，long 四个字节，long long 八个字节，以上只为通常，取决于编译器
+float a=5.5，定义的为double；float a=5.5f，定义的为float
+bool 占用1个字节，但其实只需一个比特，一个字节可以储存八个bool
