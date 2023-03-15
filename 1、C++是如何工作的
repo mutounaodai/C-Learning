@@ -13,3 +13,4 @@ INTEGER Multiply(int a, int b)
 	return result;
 #include"EndBrace.h" //头文件，里面只有一个}，相当于把头文件里的内容直接复制粘贴在这里，这样就不会少了中括号了
 #endif
+
